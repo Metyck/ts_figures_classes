@@ -1,7 +1,7 @@
 export interface Figure {
   shape: 'triangle' | 'circle' | 'rectangle';
   color: 'red' | 'green' | 'blue';
-  getArea: Function;
+  getArea(): number;
 }
 
 export class Triangle implements Figure {
